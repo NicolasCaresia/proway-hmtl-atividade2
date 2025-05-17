@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema Atividade</title>
+    <title>Retro Movie</title>
+    <link rel="icon" type="image/png" href="assets/icone.png">
 </head>
+
 <body>
-    <h1>Hello world</h1>
+    <form method="get" action="paginas/home.html">
+        <div>
+            <label>E-mail</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label>Senha</label>
+            <input type="password" name="senha">
+        </div>
+        <div></div>
+            <label>Sexo</label>
+            <div>
+                <input type="radio" id="campo-sexo-masculino" name="sexo" value="true">
+                <label for="campo-sexo-masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" id="campo-sexo-feminino" name="sexo" value="false">
+                <label for="campo-sexo-feminino">Feminino</label>
+            </div>
+        </div>
+
+        <button>Entrar</button>
+    </form>
+
+    <h1>Bem Vindo</h1>
+    <img alt="Foto da logo do site" width="200" src="../assets/logo.png">
+    <h2>Retro Movie - O Seu Universo do Cinema!</h2>
+    <p>Aqui você encontra tudo sobre o mundo dos filmes em um só lugar. Descubra lançamentos, clássicos, trailers, sinopses, críticas, e muito mais! Seja você um cinéfilo apaixonado ou apenas procurando um bom filme para assistir no fim de semana, o [Nome do Site] é o seu destino ideal. Navegue por gêneros, acompanhe novidades do cinema e monte sua própria lista de favoritos. Prepare a pipoca e aproveite!</p>
+
 </body>
+
 </html>
